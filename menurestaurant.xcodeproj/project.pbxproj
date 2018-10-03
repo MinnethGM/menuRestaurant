@@ -14,6 +14,10 @@
 		3DC13893216441CB00EC87EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC13891216441CB00EC87EF /* LaunchScreen.storyboard */; };
 		3DC1389E216441CB00EC87EF /* menurestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1389D216441CB00EC87EF /* menurestaurantTests.swift */; };
 		3DC138A9216441CB00EC87EF /* menurestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC138A8216441CB00EC87EF /* menurestaurantUITests.swift */; };
+		3DC138B72164427E00EC87EF /* Platillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC138B62164427E00EC87EF /* Platillo.swift */; };
+		3DC138B92164429000EC87EF /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC138B82164429000EC87EF /* Comentario.swift */; };
+		3DC138BB2164459A00EC87EF /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC138BA2164459A00EC87EF /* Datos.swift */; };
+		3DC138BD21644F7C00EC87EF /* CeldaPlatillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC138BC21644F7C00EC87EF /* CeldaPlatillo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3DC138A4216441CB00EC87EF /* menurestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menurestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC138A8216441CB00EC87EF /* menurestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menurestaurantUITests.swift; sourceTree = "<group>"; };
 		3DC138AA216441CB00EC87EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC138B62164427E00EC87EF /* Platillo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platillo.swift; sourceTree = "<group>"; };
+		3DC138B82164429000EC87EF /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		3DC138BA2164459A00EC87EF /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3DC138BC21644F7C00EC87EF /* CeldaPlatillo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPlatillo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		3DC13887216441C900EC87EF /* menurestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				3DC138B82164429000EC87EF /* Comentario.swift */,
+				3DC138B62164427E00EC87EF /* Platillo.swift */,
 				3DC13888216441C900EC87EF /* AppDelegate.swift */,
 				3DC1388A216441C900EC87EF /* ViewController.swift */,
 				3DC1388C216441C900EC87EF /* Main.storyboard */,
 				3DC1388F216441CB00EC87EF /* Assets.xcassets */,
 				3DC13891216441CB00EC87EF /* LaunchScreen.storyboard */,
 				3DC13894216441CB00EC87EF /* Info.plist */,
+				3DC138BA2164459A00EC87EF /* Datos.swift */,
+				3DC138BC21644F7C00EC87EF /* CeldaPlatillo.swift */,
 			);
 			path = menurestaurant;
 			sourceTree = "<group>";
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC138BD21644F7C00EC87EF /* CeldaPlatillo.swift in Sources */,
+				3DC138BB2164459A00EC87EF /* Datos.swift in Sources */,
+				3DC138B92164429000EC87EF /* Comentario.swift in Sources */,
 				3DC1388B216441C900EC87EF /* ViewController.swift in Sources */,
 				3DC13889216441C900EC87EF /* AppDelegate.swift in Sources */,
+				3DC138B72164427E00EC87EF /* Platillo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
